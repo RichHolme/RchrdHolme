@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 
+const styles = {
+    div: {
+        float: "left"
+    }
+}
 
 const Bio = props => {
         return (
-            <div className="col-md-6">
+            <div className="col-md-6" style={styles.div}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Ut enim ad minim veniam, quis nostrud exercitation ullamco 
