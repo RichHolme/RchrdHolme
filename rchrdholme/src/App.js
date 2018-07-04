@@ -1,18 +1,28 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 // import './App.css';
-import Bio from "./Components/Bio";
 import Profile from "./Components/Profile";
+import Education from "./Components/Education";
+import Footer from "./Components/Footer";
+import Projects from "./Components/Projects";
 
+const styles = {
+  div: {
+    overflowX: "hidden",
+    background: "#f2f2f2"
+  }
+}
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-       <div>
+      <div style={styles.div} className="App">
+    
          <Profile />
-         <Bio />
-       </div>
+         <Education />
+         <Projects />
+         <Footer />
+       
       </div>
     );
   }
