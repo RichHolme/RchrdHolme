@@ -5,6 +5,7 @@ const styles = {
         textAlign: "center",
         // fontSize: "8vh",
         marginTop: "5%",
+        marginBottom: "2%",
         // background: "#084C61",
         padding: "3%",
         // color: "white",
@@ -20,7 +21,7 @@ const styles = {
     contact: {
         fontSize: "3vh",
         marginTop: "4%",
-        marginBottom: "4%"
+        marginBottom: "2%"
     },
     span: {
         marginRight: "1%",
