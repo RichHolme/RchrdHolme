@@ -14,11 +14,11 @@ const styles = {
         // float: "left"
         marginTop: "3%",
         marginBottom: "5%",
-        background: "#084C61",
+        // background: "#084C61",
         padding: "3%",
-        color: "white",
+        // color: "white",
         // borderRadius: "10px",
-        boxShadow: "1px 3px 8px 1px #888888"
+        boxShadow: "1px 1px 8px 1px #888888"
     },
     div2: {
         // float: "right",

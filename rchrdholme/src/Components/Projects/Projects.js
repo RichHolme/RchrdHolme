@@ -11,11 +11,11 @@ const styles = {
     div : {
         marginTop: "5%",
         textAligh: "center",
-        background: "#528190",
+        // background: "#528190",
         padding: "3%",
-        color: "white",
+        // color: "white",
         // borderRadius: "10px",
-        boxShadow: "1px 3px 8px 1px #888888"
+        boxShadow: "1px 1px 8px 1px #888888"
     },
     // background1: {
     //     backgroundImage: "url('https://images.complex.com/complex/image/upload/t_article_image/ojyz9t7vrxxzcmqkycyd.jpg')"
@@ -26,7 +26,8 @@ const styles = {
     },
     carousel: {
         width: "70%",
-        margin: "0 auto"
+        margin: "0 auto",
+        boxShadow: "1px 1px 8px 1px #888888"
     }
 }
 

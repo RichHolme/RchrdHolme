@@ -9,8 +9,15 @@ import Projects from "./Components/Projects";
 const styles = {
   div: {
     overflowX: "hidden",
-    background: "#f2f2f2"
+    // background: "#f2f2f2"
+    height: "100%",
+    // backgroundImage: "url('https://cdn.wallpapersafari.com/94/90/NbHSGU.jpg')",
+    bottom: "0",
+    position: "fixed",
+    right: "0",
+    width: "100%"
   }
+
 }
 
 class App extends Component {
@@ -19,9 +26,9 @@ class App extends Component {
       <div style={styles.div} className="App">
     
          <Profile />
-         <Education />
-         <Projects />
-         <Footer />
+         {/* <Education /> */}
+         {/* <Projects /> */}
+         {/* <Footer /> */}
        
       </div>
     );

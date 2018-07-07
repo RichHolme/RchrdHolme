@@ -5,11 +5,11 @@ const styles = {
         textAlign: "center",
         // fontSize: "8vh",
         marginTop: "5%",
-        background: "#084C61",
+        // background: "#084C61",
         padding: "3%",
-        color: "white",
+        // color: "white",
         // borderRadius: "10px",s
-        boxShadow: "1px 3px 8px 1px #888888"
+        boxShadow: "1px 1px 8px 1px #888888"
     },
     thanks: {
         fontSize: "5vh"
