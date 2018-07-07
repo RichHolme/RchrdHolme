@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Carousel } from "react-bootstrap";
+// import { Carousel } from "react-bootstrap";
+import Footer from "../Footer";
+import Nav from "../Nav";
 
 const styles = {
     img : {
@@ -16,7 +18,7 @@ const styles = {
         // textAligh: "center",
         // background: "#528190",
         padding: "3%",
-        margin: "1%",
+        margin: "2%",
         // color: "white",
         // borderRadius: "10px",
         boxShadow: "1px 1px 8px 1px #888888",
@@ -24,6 +26,7 @@ const styles = {
         overflow: "hidden",
         // background: "black"
         // textAlign: 'center'
+        clear: "both"
     },
     // background1: {
     //     backgroundImage: "url('https://images.complex.com/complex/image/upload/t_article_image/ojyz9t7vrxxzcmqkycyd.jpg')"
@@ -56,7 +59,7 @@ class Projects extends Component {
   
       return (
           <div style={styles.container} className="container">
-
+            <Nav />
             <div className="row">
                 <div className="col-md-6">
                     <div style={styles.div}>
@@ -94,7 +97,9 @@ class Projects extends Component {
                     </div>
                 </div>
 
-             </div>
+            </div>
+
+            <Footer />
                 
         </div>
       );
