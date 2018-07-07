@@ -36,6 +36,10 @@ const styles = {
         position: "absolute",
         color: "white",
         top: "55%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        left: "0",
+        right: "0"
         // left: "20%"
         // height: "10%"
     },
