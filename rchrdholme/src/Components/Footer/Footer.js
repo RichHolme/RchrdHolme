@@ -4,14 +4,14 @@ const styles = {
     div:{
         textAlign: "center",
         // fontSize: "8vh",
-        marginTop: "10%",
+        marginTop: "8%",
         // marginBottom: "2%",
         // background: "#084C61",
         padding: "3%",
         // color: "white",
         // borderRadius: "10px",s
         // boxShadow: "1px 1px 8px 1px #888888"
-        overfolw:"hidden"
+        // overfolw:"hidden"
     },
     thanks: {
         fontSize: "5vh"

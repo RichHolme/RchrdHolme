@@ -9,7 +9,7 @@ const styles = {
         // mrginTop: "10%"
     },
     button: {
-        marginTop: "10%",
+        marginTop: "8%",
         paddingRight: "2%",
         paddingLeft: "2%",
         fontSize: "180%"

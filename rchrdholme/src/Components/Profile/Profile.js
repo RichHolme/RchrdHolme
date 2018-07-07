@@ -7,15 +7,15 @@ const styles = {
         height: "28vh",
         width: "28vh",
         borderRadius: "50%",
-        float: "left",
+        // float: "left",
         // marginLeft: "3%",
         marginRight: "3%"
     },
     div: {
         textAlign: "center",
         // float: "left"
-        marginTop: "3%",
-        marginBottom: "5%",
+        marginTop: "2%",
+        // marginBottom: "5%",
         // marginLeft: "10%",
         // marginRight: "10%",
         // background: "#084C61",
