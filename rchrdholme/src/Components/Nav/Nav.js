@@ -6,15 +6,10 @@ const styles = {
         height: "10vh",
         width: "10vh",
         borderRadius: "50%",
-        // float: "left",
-        // marginLeft: "3%",
-        // marginLeft: "6%"
         marginRight: "3%"
     },
     div: {
-        // background: "black",
         // boxShadow: "1px 1px 8px 1px #888888",
-        // color: "white",
         overflow: "auto",
         marginTop: "3%",
         marginBottom: "2%",
