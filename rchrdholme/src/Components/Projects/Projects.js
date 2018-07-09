@@ -47,7 +47,7 @@ const styles = {
         // height: "10%"
     },
     container: {
-        textAlign: "center"
+        textAlign: "center",
     }
 }
 
@@ -88,7 +88,7 @@ class Projects extends Component {
 
                 <div className="col-md-6">
                     <div style={styles.div}>
-                        <img style={styles.img} alt="900x500" src="http://eskipaper.com/images/world-wallpaper-9.jpg" />
+                        <img style={styles.img} alt="900x500" src={require('../../Images/travel.jpg')} />
                         <div style={styles.text}>
                             <h2>Trevello</h2>
                             <p>Create and plan your trips with us.</p>

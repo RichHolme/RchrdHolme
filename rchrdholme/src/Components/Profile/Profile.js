@@ -19,6 +19,7 @@ const styles = {
         // marginLeft: "10%",
         // marginRight: "10%",
         // background: "#084C61",
+        // color: "white",
         padding: "3%",
         // color: "white",
         // borderRadius: "10px",
@@ -29,6 +30,8 @@ const styles = {
         // height: "100%"
         // left: "5%",
         // position: "fixed"
+        // backgroundImage: "url('http://getwallpapers.com/wallpaper/full/7/c/6/765090-most-popular-technology-background-images-1920x1080-hd-for-mobile.jpg')"
+
     },
     div2: {
         // float: "right",
