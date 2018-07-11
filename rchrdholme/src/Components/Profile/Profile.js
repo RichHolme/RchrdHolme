@@ -9,7 +9,8 @@ const styles = {
         borderRadius: "50%",
         // float: "left",
         // marginLeft: "3%",
-        marginRight: "3%"
+        marginRight: "3%",
+        boxShadow: "1px 1px 8px 1px #888888",
     },
     div: {
         textAlign: "center",
@@ -56,7 +57,7 @@ const Profile = props => {
         return (
             <div className="container" style={styles.div}>
                 {/* <div style={styles.inner}> */}
-                <img style={styles.img} src="http://cdn.onlinewebfonts.com/svg/img_411575.svg"></img>
+                <img style={styles.img} src="https://www.communitylandtrust.ca/wp-content/uploads/2015/10/placeholder.png"></img>
                 <div className="" style={styles.div2}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

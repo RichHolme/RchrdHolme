@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import { Carousel } from "react-bootstrap";
 import Footer from "../Footer";
 import Nav from "../Nav";
+import Css from "./Project.css"
 
 const styles = {
     img : {
@@ -9,6 +10,7 @@ const styles = {
         height: '40vh',
         // paddingRight: '5vw',
         // paddingLeft: "5vw"
+        // boxShadow: "1px 1px 8px 1px #888888",
     },
     div : {
         // marginTop: "5%",
@@ -62,7 +64,7 @@ class Projects extends Component {
             <Nav />
             <div className="row">
                 <div className="col-md-6">
-                    <div style={styles.div}>
+                    <div className="project" style={styles.div}>
                         <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
                         <div style={styles.text}>
                             <h2>To Read or Not to Read?</h2>
@@ -73,7 +75,7 @@ class Projects extends Component {
                 </div>
 
                 <div className="col-md-6">
-                    <div  style={styles.div}>
+                    <div className="project" style={styles.div}>
                         <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
                         <div style={styles.text}>
                             <h2>Facebark</h2>
@@ -87,7 +89,7 @@ class Projects extends Component {
             <div className="row">
 
                 <div className="col-md-6">
-                    <div style={styles.div}>
+                    <div className="project" style={styles.div}>
                         <img style={styles.img} alt="900x500" src={require('../../Images/travel.jpg')} />
                         <div style={styles.text}>
                             <h2>Trevello</h2>

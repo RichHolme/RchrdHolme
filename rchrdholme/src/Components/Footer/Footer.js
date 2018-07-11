@@ -6,18 +6,18 @@ const styles = {
         marginTop: "8%",
         padding: "3%",
     },
-    thanks: {
-        fontSize: "5vh"
-    },
-    copyright: {
-        fontSize: "2.5vh",
-    },
     contact: {
         fontSize: "3vh",
     },
-    span: {
-        marginRight: "1%",
-        marginLeft: "1%"
+    contact1: {
+        // marginRight: "-2%",
+        // marginLeft: "-1%"
+        // float: "right"
+        // paddingLeft: "5%"
+    },
+    contact2: {
+        // marginLeft: "-2%",
+        // marginLeft: "-1%"
     }
 }
 
@@ -27,11 +27,11 @@ const Footer = props => {
               
                <div className="row" style={styles.contact}>
             
-                        <span style={styles.span}>Get in touch with me <a>here</a></span>
+                        <div className="col-md-4" style={styles.contact1}>Get in touch with me <a>here</a></div>
     
-                        <span style={styles.span}>Check out my code <a>here</a></span>
+                        <div className="col-md-4">Check out my code <a>here</a></div>
         
-                        <span style={styles.span}>Or get a copy of my resume <a>here</a></span>
+                        <div className="col-md-4" style={styles.contact2}>Get a copy of my resume <a>here</a></div>
                     
                 </div>
 
