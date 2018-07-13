@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Footer from "../Footer";
 import Nav from "../Nav";
 import Css from "./Project.css"
+import { Link } from "react-router-dom";
 
 const styles = {
     img : {
@@ -64,39 +65,45 @@ class Projects extends Component {
             <Nav />
             <div className="row">
                 <div className="col-md-6">
-                    <div className="project" style={styles.div}>
-                        <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
-                        <div style={styles.text}>
-                            <h2>To Read or Not to Read?</h2>
-                            <p>Should I read the book or watch the movie?</p>
-                            {/* <p>Html Css Javascript Jquery Ajax</p> */}
+                    <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
+                        <div className="project" style={styles.div}>
+                            <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
+                            <div style={styles.text}>
+                                <h2>To Read or Not to Read?</h2>
+                                <p>Should I read the book or watch the movie?</p>
+                                {/* <p>Html Css Javascript Jquery Ajax</p> */}
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div className="col-md-6">
-                    <div className="project" style={styles.div}>
-                        <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
-                        <div style={styles.text}>
-                            <h2>Facebark</h2>
-                            <p>Walk your dog. Be social. Life is good.</p>
-                            {/* <p>Html Css Javascript MySQL Sequelize Passport Materialize Node.js Express.js</p> */}
+                    <a target="_blank" href="https://face-bark.herokuapp.com/">
+                        <div className="project" style={styles.div}>
+                            <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
+                            <div style={styles.text}>
+                                <h2>Facebark</h2>
+                                <p>Walk your dog. Be social. Life is good.</p>
+                                {/* <p>Html Css Javascript MySQL Sequelize Passport Materialize Node.js Express.js</p> */}
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
             <div className="row">
 
                 <div className="col-md-6">
-                    <div className="project" style={styles.div}>
-                        <img style={styles.img} alt="900x500" src={require('../../Images/travel.jpg')} />
-                        <div style={styles.text}>
-                            <h2>Trevello</h2>
-                            <p>Create and plan your trips with us.</p>
-                            {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                    <a target="_blank" href="https://richholme.github.io/MemoryGame/">
+                        <div className="project" style={styles.div}>
+                            <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
+                            <div style={styles.text}>
+                                <h2>The Dirty Dozen Puzzle</h2>
+                                <p>Think you have a good memory? Lets test it.</p>
+                                {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
