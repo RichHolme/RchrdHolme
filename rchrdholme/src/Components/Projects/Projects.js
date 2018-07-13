@@ -21,6 +21,7 @@ const styles = {
         // textAligh: "center",
         // background: "#528190",
         padding: "3%",
+        // paddingBottom: "8%",
         margin: "2%",
         // color: "white",
         // borderRadius: "10px",
@@ -29,7 +30,8 @@ const styles = {
         overflow: "hidden",
         // background: "black"
         // textAlign: 'center'
-        clear: "both"
+        clear: "both",
+        // backgroundColor: "black"
     },
     // background1: {
     //     backgroundImage: "url('https://images.complex.com/complex/image/upload/t_article_image/ojyz9t7vrxxzcmqkycyd.jpg')"
@@ -45,9 +47,10 @@ const styles = {
         marginLeft: "auto",
         marginRight: "auto",
         left: "0",
-        right: "0"
+        right: "0",
         // left: "20%"
         // height: "10%"
+        // fontWeight: "bold"
     },
     container: {
         textAlign: "center",
@@ -61,54 +64,71 @@ class Projects extends Component {
     //   const { index, direction } = this.state;
   
       return (
-          <div style={styles.container} className="container">
+          <div style={styles.container} className="">
             <Nav />
-            <div className="row">
-                <div className="col-md-6">
-                    <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
-                        <div className="project" style={styles.div}>
-                            <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
-                            <div style={styles.text}>
-                                <h2>To Read or Not to Read?</h2>
-                                <p>Should I read the book or watch the movie?</p>
-                                {/* <p>Html Css Javascript Jquery Ajax</p> */}
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
+                            <div className="project" style={styles.div}>
+                                <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
+                                <div style={styles.text}>
+                                    <h2>To Read or Not to Read?</h2>
+                                    <p>Should I read the book or watch the movie?</p>
+                                    {/* <p>Html Css Javascript Jquery Ajax</p> */}
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
+                    <div className="col-md-6">
+                        <a target="_blank" href="https://face-bark.herokuapp.com/">
+                            <div className="project" style={styles.div}>
+                                <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
+                                <div style={styles.text}>
+                                    <h2>Facebark</h2>
+                                    <p>Walk your dog. Be social. Life is good.</p>
+                                    {/* <p>Html Css Javascript MySQL Sequelize Passport Materialize Node.js Express.js</p> */}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
-                <div className="col-md-6">
-                    <a target="_blank" href="https://face-bark.herokuapp.com/">
-                        <div className="project" style={styles.div}>
-                            <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
-                            <div style={styles.text}>
-                                <h2>Facebark</h2>
-                                <p>Walk your dog. Be social. Life is good.</p>
-                                {/* <p>Html Css Javascript MySQL Sequelize Passport Materialize Node.js Express.js</p> */}
+                <div className="row">
+
+                    <div className="col-md-6">
+                        <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
+                            <div className="project" style={styles.div}>
+                                <img style={styles.img} alt="900x500" src={require('../../Images/news.jpg')} />
+                                <div className="news" style={styles.text}>
+                                    <h2>Mongo Scraper</h2>
+                                    <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p>
+                                    {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
+
+                    <div className="col-md-6">
+                        <a target="_blank" href="https://richholme.github.io/MemoryGame/">
+                            <div className="project" style={styles.div}>
+                                <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
+                                <div style={styles.text}>
+                                    <h2>The Dirty Dozen Puzzle</h2>
+                                    <p>Think you have a good memory? Lets test it.</p>
+                                    {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
+
+                <Footer />
+
             </div>
-
-            <div className="row">
-
-                <div className="col-md-6">
-                    <a target="_blank" href="https://richholme.github.io/MemoryGame/">
-                        <div className="project" style={styles.div}>
-                            <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
-                            <div style={styles.text}>
-                                <h2>The Dirty Dozen Puzzle</h2>
-                                <p>Think you have a good memory? Lets test it.</p>
-                                {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-            <Footer />
+            
                 
         </div>
       );

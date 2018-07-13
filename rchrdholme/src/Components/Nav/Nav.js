@@ -17,7 +17,9 @@ const styles = {
         marginBottom: "2%",
         fontSize: "5vh",
         paddingTop: "1%",
-        paddingBottom: "1%"
+        paddingBottom: "1%",
+        // backgroundColor: "black",
+        // color: "white"
     }
 }
 
