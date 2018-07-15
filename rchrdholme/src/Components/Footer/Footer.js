@@ -17,6 +17,11 @@ const styles = {
         fontSize: "3.5vh",
         // float: "left"
     },
+    iframe: {
+        height: "0px",
+        width: "0px",
+        position: "absolute"
+    }
 }
 
 const mail = (
@@ -57,6 +62,16 @@ class Footer extends Component {
   
     handleShow() {
       this.setState({ show: true });
+    }
+
+    print() {
+        var content = document.getElementById("modalBody");
+        var pri = document.getElementById("ifmcontentstoprint").contentWindow;
+        pri.document.open();
+        pri.document.write(content.innerHTML);
+        pri.document.close();
+        pri.focus();
+        pri.print();
     }
 
     render() {
@@ -105,83 +120,52 @@ class Footer extends Component {
                     
                         <Modal show={this.state.show} onHide={this.handleClose}>
                             <Modal.Header closeButton>
-                                <Modal.Title>Modal heading</Modal.Title>
+                                <Modal.Title>Richard Holme Resume</Modal.Title>
                             </Modal.Header>
-                            <Modal.Body>
-                                <h4>Text in a modal</h4>
-                                <p>
-                                Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                                </p>
+                            <Modal.Body id="modalBody">
+                                <h2 id="name">Richard Holme</h2>
+                                <div className="row info">
+                                    <p className="firstBorder personalInfo">984-242-9704</p>
+                                    <p className="personalInfo">Raleigh, NC</p>
+                                </div>
+                                <div className="row info">
+                                    <p className="firstBorder personalInfo"><a>rchrdholme@gmail.com</a></p>
+                                    <p className="personalInfo"><a>https://github.com/RichHolme</a></p>
+                                </div>
+                                
+                                <div className="row">
+                                    <p id="skillInfo">Goal oriented, driven individual entering the field of Web Development. Experienced in HTML5, CSS3, Javascript, JQuery, Bootstrap, Angular JS, Firebase, Ionic Mobile Framework, Node Js, MySQL, MongoDB, Express, & Handlebars JS.</p>
+                                </div>
 
-                                <h4>Popover in a modal</h4>
-                                <p>
-                                there is a{' '}
-                                {/* <OverlayTrigger overlay={popover}>
-                                    <a href="#popover">popover</a>
-                                </OverlayTrigger>{' '} */}
-                                here
-                                </p>
+                                <div id="education" className="row">
+                                    <h3 className="margin">Education</h3>
+                                    <h4 className="bold margin">The University of North Carolina at Chapel Hill, Chapel Hill, NC </h4>
+                                    <span className="margin">January 2018 - July 2018</span>
+                                    <p id="school">UNC Coding Bootcamp - Javascript Full Stack Web Development</p>
+                                    <p id="schoolDescription">An intensive 24-week long boot camp dedicated to designing and building web applications.</p>
+                                </div>
 
-                                <h4>Tooltips in a modal</h4>
-                                <p>
-                                there is a{' '}
-                                {/* <OverlayTrigger overlay={tooltip}>
-                                    <a href="#tooltip">tooltip</a>
-                                </OverlayTrigger>{' '} */}
-                                here
-                                </p>
+                                <div className="row apps">
+                                    <h3 className="margin">Applications Built</h3>
+                                    <h4 className="bold margin">Is My Book A Movie?</h4>
+                                    <ul className="margin">
+                                        <li>User searches for a film by entering a book title or author. When the user finds the book of choice general book info is displayed. If a movie exists user finds info about the movie with an accompanying movie trailer. User has the option of participating in a poll, stored in firebase. </li>
+                                        <li>Sole developer</li>
+                                        <li><a>Check it out!</a></li>
+                                    </ul>
+                                </div>
 
-                                <hr />
+                                <div id="work margin" className="row">
+                                    <h3 className="margin">Additional Work Experience</h3>
+                                    <p className="margin">Driver at Inter-Faith Food Shuttle 
+                                    <span id="workDate" className="margin">September 2014 - Present</span></p>
+                                </div>
 
-                                <h4>Overflowing text to show scroll behavior</h4>
-                                <p>
-                                Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                                ac consectetur ac, vestibulum at eros.
-                                </p>
-                                <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                                et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                                auctor.
-                                </p>
-                                <p>
-                                Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
-                                cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
-                                dui. Donec ullamcorper nulla non metus auctor fringilla.
-                                </p>
-                                <p>
-                                Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                                ac consectetur ac, vestibulum at eros.
-                                </p>
-                                <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                                et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                                auctor.
-                                </p>
-                                <p>
-                                Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
-                                cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
-                                dui. Donec ullamcorper nulla non metus auctor fringilla.
-                                </p>
-                                <p>
-                                Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                                dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
-                                ac consectetur ac, vestibulum at eros.
-                                </p>
-                                <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                                et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                                auctor.
-                                </p>
-                                <p>
-                                Aenean lacinia bibendum nulla sed consectetur. Praesent commodo
-                                cursus magna, vel scelerisque nisl consectetur et. Donec sed odio
-                                dui. Donec ullamcorper nulla non metus auctor fringilla.
-                                </p>
+                               
                             </Modal.Body>
+                            <iframe id="ifmcontentstoprint" style={styles.iframe}></iframe>
                             <Modal.Footer>
-                                <button onClick={this.handleClose}>Close</button>
+                                <button className="btn btn-primary" id="print" onClick={this.print}>Print</button> <button className="btn btn-danger" onClick={this.handleClose}>Close</button>
                             </Modal.Footer>
                             </Modal>
 
