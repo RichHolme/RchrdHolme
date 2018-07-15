@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Css from "./Button.css";
 
 const styles = {
    
@@ -10,9 +11,21 @@ const styles = {
     },
     button: {
         marginTop: "8%",
+        marginBottom: "4%",
         paddingRight: "2%",
         paddingLeft: "2%",
-        fontSize: "180%"
+        fontSize: "180%",
+        color: "black",
+        boxShadow: "1px 1px 8px 1px #888888",
+        // backgroundImage: {require('../../Images/gray.jpg')}
+    },
+    img: {
+        height: "9vh",
+        width: "15%",
+        boxShadow: "1px 1px 8px 1px #888888",
+        borderRadius: "5px",
+        marginTop: "8%",
+        marginBottom: "4%",
     }
 }
 
@@ -21,7 +34,8 @@ const Button = props => {
         <div style={styles.div}>
 
             <Link to="/">
-                <button style={styles.button} className="btn btn-gray">Portfolio</button>
+                {/* <button style={styles.button} className="btn btn-gray">Portfolio</button> */}
+                <img style={styles.img} src={require('../../Images/portfolio.jpg')}></img>
             </Link>
 
         </div>

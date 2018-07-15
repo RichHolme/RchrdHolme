@@ -15,7 +15,7 @@ const styles = {
     div: {
         textAlign: "center",
         // float: "left"
-        marginTop: "2%",
+        // marginTop: "2%",
         // marginBottom: "5%",
         // marginLeft: "10%",
         // marginRight: "10%",
@@ -57,7 +57,7 @@ const Profile = props => {
         return (
             <div className="container" style={styles.div}>
                 {/* <div style={styles.inner}> */}
-                <img style={styles.img} src="https://www.communitylandtrust.ca/wp-content/uploads/2015/10/placeholder.png"></img>
+                <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
                 <div className="" style={styles.div2}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

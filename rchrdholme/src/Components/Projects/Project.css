@@ -3,6 +3,7 @@
     cursor: pointer;
 }
 
+h1,
 h2,
 p{
     /* font-size: 2.1vh; */
@@ -14,13 +15,50 @@ p{
     margin-left: 10vw; */
     /* font-weight: bold; */
     text-shadow: 2px 2px 5px black;
+    padding-right: 1%;
+    padding-left: 1%;
 }
 
-.mail{
-    /* color: black !important; */
-    /* float: right; */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+    width: 100%;
+	height: 49vh;
+    /* margin: 1%; */
 }
 
-.resume{
-    /* float: left; */
+/* flip speed goes here */
+.flipper {
+	transition: 0.8s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }

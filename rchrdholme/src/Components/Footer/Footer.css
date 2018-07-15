@@ -1,11 +1,36 @@
 .mail,
 .code,
 .resume{
-    float: left;
-    padding-left: 2.5vw;
+    /* float: left; */
+    /* padding-left: 17.5vw; */
     
 }
 
-.mail{
-    padding: 
+.mail:hover:after{
+    /* padding:  */
+    /* content: "  Email Me" */
 }
+
+/* #prevSearch:hover:after{
+	content: "  Previous Search"
+} */
+
+span{
+    /* box-shadow: 1px 1px 8px 1px #888888; */
+    text-shadow:1px 1px 1px #ccc;
+    /* color: black; */
+    font-weight: bold;
+    color: black;
+}
+
+/* .email{
+    color: green;
+}
+
+.code{
+    color: blue;
+}
+
+.resume{
+    columns: black;
+} */

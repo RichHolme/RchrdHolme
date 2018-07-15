@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import Nav from "../Nav";
 import Css from "./Project.css"
 import { Link } from "react-router-dom";
+import { OverlayTrigger, Popover } from "react-bootstrap";
 
 const styles = {
     img : {
@@ -22,7 +23,7 @@ const styles = {
         // background: "#528190",
         padding: "3%",
         // paddingBottom: "8%",
-        margin: "2%",
+        // margin: "2%",
         // color: "white",
         // borderRadius: "10px",
         boxShadow: "1px 1px 8px 1px #888888",
@@ -43,7 +44,19 @@ const styles = {
     text: {
         position: "absolute",
         color: "white",
-        top: "55%",
+        top: "40%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        left: "0",
+        right: "0",
+        // left: "20%"
+        // height: "10%"
+        // fontWeight: "bold"
+    },
+    textBack: {
+        position: "absolute",
+        color: "white",
+        top: "35%",
         marginLeft: "auto",
         marginRight: "auto",
         left: "0",
@@ -57,7 +70,6 @@ const styles = {
     }
 }
 
-
 class Projects extends Component {
   
     render() {
@@ -69,58 +81,147 @@ class Projects extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
-                            <div className="project" style={styles.div}>
-                                <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
-                                <div style={styles.text}>
-                                    <h2>To Read or Not to Read?</h2>
-                                    <p>Should I read the book or watch the movie?</p>
-                                    {/* <p>Html Css Javascript Jquery Ajax</p> */}
+
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
+                                            <div style={styles.text}>
+                                                <h1>To Read or Not to Read?</h1>
+                                                {/* <p>Should I read the book or watch the movie?</p> */}
+                                                {/* <p>Html Css Javascript Jquery Ajax</p> */}
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
+                                            <div className="project" style={styles.div}>
+                                                <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                                <div style={styles.textBack}>
+                                                    <h2>I was built with...</h2>
+                                                    <p>Html Css Javascript</p>
+                                                    {/* <p>Html Css Javascript Jquery Ajax</p> */}
+                                                </div>
+                                            </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                        
+                        
                     </div>
 
                     <div className="col-md-6">
-                        <a target="_blank" href="https://face-bark.herokuapp.com/">
-                            <div className="project" style={styles.div}>
-                                <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
-                                <div style={styles.text}>
-                                    <h2>Facebark</h2>
-                                    <p>Walk your dog. Be social. Life is good.</p>
-                                    {/* <p>Html Css Javascript MySQL Sequelize Passport Materialize Node.js Express.js</p> */}
+
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <a target="_blank" href="https://face-bark.herokuapp.com/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
+                                            <div style={styles.text}>
+                                                <h2>Facebark</h2>
+                                                {/* <p>Walk your dog. Be social. Life is good.</p> */}
+                                                
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a target="_blank" href="https://face-bark.herokuapp.com/">
+                                            <div className="project" style={styles.div}>
+                                                <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                                <div style={styles.textBack}>
+                                                    <h2>I was built with...</h2>
+                                                    <p>Materialize Express.js Node.js MySQL Sequelize Javascript</p>
+                                                    
+                                                </div>
+                                            </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                        
+
                     </div>
+
                 </div>
 
                 <div className="row">
 
                     <div className="col-md-6">
-                        <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
-                            <div className="project" style={styles.div}>
-                                <img style={styles.img} alt="900x500" src={require('../../Images/news.jpg')} />
-                                <div className="news" style={styles.text}>
-                                    <h2>Mongo Scraper</h2>
-                                    <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p>
-                                    {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                     <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src={require('../../Images/news.jpg')} />
+                                            <div className="news" style={styles.text}>
+                                                <h2>Mongo Scraper</h2>
+                                                {/* <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p> */}
+                                                {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
+                                            <div className="project" style={styles.div}>
+                                                <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                                <div style={styles.textBack}>
+                                                    <h2>I was built with...</h2>
+                                                    <p>Express.js Node.js MongoDB Mongoose</p>
+                                                    
+                                                </div>
+                                            </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                        
+
                     </div>
 
                     <div className="col-md-6">
-                        <a target="_blank" href="https://richholme.github.io/MemoryGame/">
-                            <div className="project" style={styles.div}>
-                                <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
-                                <div style={styles.text}>
-                                    <h2>The Dirty Dozen Puzzle</h2>
-                                    <p>Think you have a good memory? Lets test it.</p>
-                                    {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                     <a target="_blank" href="https://richholme.github.io/MemoryGame/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
+                                            <div style={styles.text}>
+                                                <h2>The Dirty Dozen Puzzle</h2>
+                                                {/* <p>Think you have a good memory? Lets test it.</p> */}
+                                                {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a target="_blank" href="https://richholme.github.io/MemoryGame/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                            <div style={styles.textBack}>
+                                                <h2>I was built with...</h2>
+                                                <p>React.js</p>
+                                                    
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                       
+
                     </div>
 
                 </div>
