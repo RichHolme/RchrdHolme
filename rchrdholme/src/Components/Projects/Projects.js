@@ -102,6 +102,7 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
+                                                    <p>Should I read the book or watch the movie?</p>
                                                     <h2>I was built with...</h2>
                                                     <p>Html Css Javascript</p>
                                                     {/* <p>Html Css Javascript Jquery Ajax</p> */}
@@ -137,6 +138,7 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
+                                                    <p>Walk your dog. Be social. Life is good.</p>
                                                     <h2>I was built with...</h2>
                                                     <p>Materialize Express.js Node.js MySQL Sequelize Javascript</p>
                                                     
@@ -176,8 +178,9 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
+                                                    <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p>
                                                     <h2>I was built with...</h2>
-                                                    <p>Express.js Node.js MongoDB Mongoose</p>
+                                                    <p>Express.js Node.js Cheerio MongoDB Mongoose</p>
                                                     
                                                 </div>
                                             </div>
@@ -211,6 +214,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
+                                                <p>Think you have a good memory? Lets test it.</p>
                                                 <h2>I was built with...</h2>
                                                 <p>React.js</p>
                                                     
@@ -224,6 +228,46 @@ class Projects extends Component {
 
                     </div>
 
+                </div>
+
+                 <div className="row">
+
+
+                    <div className="col-md-6">
+
+                        
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <a target="_blank" href="https://vast-plateau-18950.herokuapp.com/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src={require('../../Images/popeye.jpg')} />
+                                            <div style={styles.text}>
+                                                <h2>Friend Finder</h2>
+                                                {/* <p>Think you have a good memory? Lets test it.</p> */}
+                                                {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="back">
+                                    <a target="_blank" href="https://vast-plateau-18950.herokuapp.com/">
+                                        <div className="project" style={styles.div}>
+                                            <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                            <div style={styles.textBack}>
+                                                <p>Popeye needs some friends!</p>
+                                                <h2>I was built with...</h2>
+                                                <p>Express.js Node.js Javascript</p>
+                                                    
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    </div>
                 </div>
 
                 <Footer />
