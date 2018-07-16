@@ -1,19 +1,13 @@
-.mail,
-.code,
-.resume{
+.fa-file-o{
     /* float: left; */
     /* padding-left: 17.5vw; */
-    
+    cursor: pointer;
 }
 
-.mail:hover:after{
-    /* padding:  */
-    /* content: "  Email Me" */
+.info{
+    line-height: 2vh;
+    padding-bottom: 2vh;
 }
-
-/* #prevSearch:hover:after{
-	content: "  Previous Search"
-} */
 
 span{
     /* box-shadow: 1px 1px 8px 1px #888888; */
@@ -22,18 +16,6 @@ span{
     font-weight: bold;
     color: black;
 }
-
-/* .email{
-    color: green;
-}
-
-.code{
-    color: blue;
-}
-
-.resume{
-    columns: black;
-} */
 
 #modalBody{
     text-align: center;
@@ -86,6 +68,7 @@ span{
 
 #schoolDescription{
     text-shadow: none;
+    margin-top: -1.2vh;
 }
 
 .apps{
@@ -96,3 +79,8 @@ span{
     font-weight: normal;
     float: right;
 }
+
+.school{
+    margin-bottom: -.1vh;
+}
+

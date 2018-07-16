@@ -106,7 +106,7 @@ class Footer extends Component {
                             </a>
                         </div>
         
-                        <div className="resume col-md-4">
+                        <div className="col-md-4">
                             <a>
                                 <OverlayTrigger
                                 trigger={['hover', 'focus']}
@@ -139,7 +139,7 @@ class Footer extends Component {
 
                                 <div id="education" className="row">
                                     <h3 className="margin">Education</h3>
-                                    <h4 className="bold margin">The University of North Carolina at Chapel Hill, Chapel Hill, NC </h4>
+                                    <h4 className="school bold margin">The University of North Carolina at Chapel Hill, Chapel Hill, NC </h4>
                                     <span className="margin">January 2018 - July 2018</span>
                                     <p id="school">UNC Coding Bootcamp - Javascript Full Stack Web Development</p>
                                     <p id="schoolDescription">An intensive 24-week long boot camp dedicated to designing and building web applications.</p>
