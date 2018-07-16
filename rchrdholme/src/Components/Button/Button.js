@@ -34,8 +34,8 @@ const Button = props => {
         <div style={styles.div}>
 
             <Link to="/">
-                {/* <button style={styles.button} className="btn btn-gray">Portfolio</button> */}
-                <img style={styles.img} src={require('../../Images/portfolio.jpg')}></img>
+                <button style={styles.button} className="btn btn-gray">Portfolio</button>
+                {/* <img style={styles.img} src={require('../../Images/portfolio.jpg')}></img> */}
             </Link>
 
         </div>
