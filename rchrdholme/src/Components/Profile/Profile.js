@@ -59,14 +59,15 @@ const Profile = props => {
                 {/* <div style={styles.inner}> */}
                 <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
                 <div className="" style={styles.div2}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
+                With one year of volunteer service, and four years of employment at the 
+                Inter-Faith Food Shuttle, I’ve been immersed in the nonprofit world. Our 
+                loyal donors and volunteers include some of the cities most accomplished 
+                men and women, and I’ve had the privilege of serving our city’s struggling 
+                communities with these people. While at Inter-Faith, I began my studies in 
+                technology with a focus in web development. The Code Bootcamp at UNC Chapel 
+                Hill is connected the dots of development that the slow pace of night 
+                classes lacked. I am currently looking to transition into the web development 
+                field full time.
                 </div>
                 
                 <Button />

@@ -10,7 +10,7 @@ const styles = {
         // mrginTop: "10%"
     },
     button: {
-        marginTop: "8%",
+        marginTop: "5%",
         marginBottom: "4%",
         paddingRight: "2%",
         paddingLeft: "2%",
