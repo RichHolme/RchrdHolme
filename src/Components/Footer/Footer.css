@@ -84,3 +84,10 @@ span{
     margin-bottom: -.1vh;
 }
 
+.resume{
+    text-shadow:1px 1px 1px #ccc;
+    /* color: black; */
+    /* font-weight: bold; */
+    color: black;
+}
+

@@ -90,7 +90,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
                                             <div style={styles.text}>
-                                                <h1>To Read or Not to Read?</h1>
+                                                <h2>To Read or Not to Read?</h2>
                                                 {/* <p>Should I read the book or watch the movie?</p> */}
                                                 {/* <p>Html Css Javascript Jquery Ajax</p> */}
                                             </div>
@@ -274,7 +274,6 @@ class Projects extends Component {
 
             </div>
             
-                
         </div>
       );
     }

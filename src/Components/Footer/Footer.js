@@ -116,7 +116,7 @@ class Footer extends Component {
                                 placement="top"
                                 overlay={resume}
                                 >
-                                    <span className="fa fa-file-o resume" href={require('../../pdf/RichardHolmeResume.pdf')} download></span>
+                                    <span><a className="fa fa-file-o resume" href={require('../../pdf/RichardHolmeResume.pdf')} download></a></span>
                                 </OverlayTrigger>
                             </a>
                         </div>
