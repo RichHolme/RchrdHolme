@@ -102,9 +102,9 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
-                                                    <p>Should I read the book or watch the movie?</p>
+                                                    <h4 className='h4'>Should I read the book or watch the movie?</h4>
                                                     <h2>I was built with...</h2>
-                                                    <p>Html Css Javascript</p>
+                                                    <h4>Html Css Javascript</h4>
                                                     {/* <p>Html Css Javascript Jquery Ajax</p> */}
                                                 </div>
                                             </div>
@@ -138,9 +138,9 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
-                                                    <p>Walk your dog. Be social. Life is good.</p>
+                                                    <h4 className='h4'>Walk your dog. Be social. Life is good.</h4>
                                                     <h2>I was built with...</h2>
-                                                    <p>Materialize Express.js Node.js MySQL Sequelize Javascript</p>
+                                                    <h4>Materialize Express.js Node.js MySQL Sequelize Javascript</h4>
                                                     
                                                 </div>
                                             </div>
@@ -178,9 +178,9 @@ class Projects extends Component {
                                             <div className="project" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
-                                                    <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p>
+                                                    <h4 className='h4'>Scrape some articles. Keep track of your notes. Everyone loves the news.</h4>
                                                     <h2>I was built with...</h2>
-                                                    <p>Express.js Node.js Cheerio MongoDB Mongoose</p>
+                                                    <h4>Express.js Node.js Cheerio MongoDB Mongoose</h4>
                                                     
                                                 </div>
                                             </div>
@@ -214,9 +214,9 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
-                                                <p>Think you have a good memory? Lets test it.</p>
+                                                <h4 className='h4'>Think you have a good memory? Lets test it.</h4>
                                                 <h2>I was built with...</h2>
-                                                <p>React.js</p>
+                                                <h4>React.js</h4>
                                                     
                                             </div>
                                         </div>
@@ -255,9 +255,9 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
-                                                <p>Popeye needs some friends!</p>
+                                                <h4 className='h4'>Popeye needs some friends!</h4>
                                                 <h2>I was built with...</h2>
-                                                <p>Express.js Node.js Javascript</p>
+                                                <h4>Express.js Node.js Javascript</h4>
                                                     
                                             </div>
                                         </div>
