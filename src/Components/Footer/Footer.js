@@ -114,6 +114,7 @@ class Footer extends Component {
                                 overlay={resume}
                                 >
                                     <span onClick={this.handleShow} className="fa fa-file-o resume"></span>
+                                    <a href="../../pdf/Richard Holme Resume" download="w3logo"></a>
                                 </OverlayTrigger>
                             </a>
                         </div>
