@@ -32,10 +32,7 @@ const Profile = props => {
                 {/* <div style={styles.inner}> */}
                 <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
                 <div className="" style={styles.div2}>
-                For the past five years I’ve been immersed in the nonprofit world. The
-                Inter Faith Food Shuttle's loyal donors and volunteers include some of the 
-                cities most accomplished men and women, and I’ve had the privilege of 
-                serving our city’s struggling communities with these people. While at 
+                For the past five years I’ve been immersed in the nonprofit world. While at 
                 Inter-Faith, I began my studies in technology with a focus in web 
                 development. The Code Bootcamp at UNC Chapel Hill has connected the dots 
                 of development that the slow pace of night classes lacked. I am currently 
