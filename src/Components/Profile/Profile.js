@@ -41,12 +41,12 @@ const Profile = props => {
                 Prior to my for five years ive been involved with
                 and employed by the Inter-Faith Food Shuttle.  */}
 
-                Richard Holme is a web developer living in Raleigh Nc. Prior to his 
+                {/* Richard Holme is a web developer living in Raleigh Nc. Prior to his 
                 techiness Richard was involved with and employed by the Inter-Faith 
                 Food Shuttle, serving his community with some really "cool" people. Richard 
                 Graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. He is 
                 currently pursuing an associate of engineering at Wake Tech to reach his
-                goal of a bachelor of computer science at NC State. 
+                goal of a bachelor of computer science at NC State.  */}
                 </div>
                 
                 <Button />
