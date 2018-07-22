@@ -266,7 +266,7 @@ class Projects extends Component {
                     </div>
                 </div>
 
-                <Footer />
+                {/* <Footer /> */}
 
             </div>
             
