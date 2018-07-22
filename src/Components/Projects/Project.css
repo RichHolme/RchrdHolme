@@ -68,4 +68,5 @@ p{
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+	/* box-shadow: 1px 1px 10px 2px #696767; */
 }

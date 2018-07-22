@@ -7,7 +7,7 @@ const styles = {
         height: "10vh",
         width: "10vh",
         borderRadius: "50%",
-        marginRight: "3%",
+        marginRight: "2%",
         boxShadow: "1px 1px 8px 1px #888888",
     },
     div: {
@@ -21,6 +21,7 @@ const styles = {
         paddingBottom: "1%",
         // backgroundColor: "black",
         // color: "white"
+        // fontFamily: "arial"
     }
 }
 // https://www.communitylandtrust.ca/wp-content/uploads/2015/10/placeholder.png

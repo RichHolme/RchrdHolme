@@ -1,6 +1,7 @@
 button{
-    background: url('../../Images/gray.jpg');
+    /* background: url('../../Images/gray.jpg'); */
     /* background-color: blue; */
+    background-color: white;
 }
 
 button:hover{

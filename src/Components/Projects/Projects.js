@@ -15,24 +15,20 @@ const styles = {
         // boxShadow: "1px 1px 8px 1px #888888",
     },
     div : {
-        // marginTop: "5%",
-        // float: 'left',
-        // width: "49%",
-        // height: "5%",
-        // textAligh: "center",
-        // background: "#528190",
         padding: "3%",
-        // paddingBottom: "8%",
-        // margin: "2%",
-        // color: "white",
-        // borderRadius: "10px",
         boxShadow: "1px 1px 8px 1px #888888",
         position: "relative",
         overflow: "hidden",
-        // background: "black"
-        // textAlign: 'center'
         clear: "both",
-        // backgroundColor: "black"
+        backgroundColor:"white"
+    },
+    divback : {
+        padding: "3%",
+        boxShadow: "1px 1px 10px 2px #696767",
+        position: "relative",
+        overflow: "hidden",
+        clear: "both",
+        backgroundColor:"white"
     },
     // background1: {
     //     backgroundImage: "url('https://images.complex.com/complex/image/upload/t_article_image/ojyz9t7vrxxzcmqkycyd.jpg')"
@@ -99,7 +95,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
-                                            <div className="project" style={styles.div}>
+                                            <div className="project" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Should I read the book or watch the movie?</h4>
@@ -135,7 +131,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://face-bark.herokuapp.com/">
-                                            <div className="project" style={styles.div}>
+                                            <div className="project" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Walk your dog. Be social. Life is good.</h4>
@@ -175,7 +171,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
-                                            <div className="project" style={styles.div}>
+                                            <div className="project" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Scrape some articles. Keep track of your notes. Everyone loves the news.</h4>
@@ -211,7 +207,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://richholme.github.io/MemoryGame/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project" style={styles.divback}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
                                                 <h4 className='h4'>Think you have a good memory? Lets test it.</h4>
@@ -252,7 +248,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://vast-plateau-18950.herokuapp.com/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project" style={styles.divback}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
                                                 <h4 className='h4'>Popeye needs some friends!</h4>
