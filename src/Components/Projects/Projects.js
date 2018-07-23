@@ -48,6 +48,8 @@ const styles = {
         // left: "20%"
         // height: "10%"
         // fontWeight: "bold"
+        // fontFamily: "Minion"
+        // fontSize: "8vh"
     },
     textBack: {
         position: "absolute",
@@ -60,6 +62,7 @@ const styles = {
         // left: "20%"
         // height: "10%"
         // fontWeight: "bold"
+        // fontFamily: "Minion"
     },
     container: {
         textAlign: "center",
@@ -86,7 +89,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
                                             <div style={styles.text}>
-                                                <h2>To Read or Not to Read?</h2>
+                                                <h2 className="title">To Read or Not to Read?</h2>
                                                 {/* <p>Should I read the book or watch the movie?</p> */}
                                                 {/* <p>Html Css Javascript Jquery Ajax</p> */}
                                             </div>
@@ -122,7 +125,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
                                             <div style={styles.text}>
-                                                <h2>Facebark</h2>
+                                                <h2 className="title">Facebark</h2>
                                                 {/* <p>Walk your dog. Be social. Life is good.</p> */}
                                                 
                                             </div>
@@ -162,7 +165,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/news.jpg')} />
                                             <div className="news" style={styles.text}>
-                                                <h2>Mongo Scraper</h2>
+                                                <h2 className="title">Mongo Scraper</h2>
                                                 {/* <p>Scrape some articles. Keep track of your notes. Everyone loves the news.</p> */}
                                                 {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
                                             </div>
@@ -198,7 +201,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
                                             <div style={styles.text}>
-                                                <h2>The Dirty Dozen Puzzle</h2>
+                                                <h2 className="title">The Dirty Dozen Puzzle</h2>
                                                 {/* <p>Think you have a good memory? Lets test it.</p> */}
                                                 {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
                                             </div>
@@ -239,7 +242,7 @@ class Projects extends Component {
                                         <div className="project" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/popeye.jpg')} />
                                             <div style={styles.text}>
-                                                <h2>Friend Finder</h2>
+                                                <h2 className="title">Friend Finder</h2>
                                                 {/* <p>Think you have a good memory? Lets test it.</p> */}
                                                 {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
                                             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../Footer";
 import Button from "../Button";
+import ProfileNav from "../ProfileNav";
 
 const styles = {
     img: {
@@ -11,6 +12,7 @@ const styles = {
         // marginLeft: "3%",
         marginRight: "3%",
         boxShadow: "1px 1px 8px 1px #888888",
+        float: "left"
     },
     div: {
         textAlign: "center",
@@ -28,6 +30,8 @@ const styles = {
 }
 const Profile = props => {
         return (
+            <div>
+            <ProfileNav></ProfileNav>
             <div className="container" style={styles.div}>
                 {/* <div style={styles.inner}> */}
                 <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
@@ -41,20 +45,20 @@ const Profile = props => {
                 Prior to my for five years ive been involved with
                 and employed by the Inter-Faith Food Shuttle.  */}
 
-                {/* Richard Holme is a web developer living in Raleigh Nc. Prior to his 
+                Richard Holme is a web developer living in Raleigh Nc. Prior to his 
                 techiness Richard was employed by the Inter-Faith 
                 Food Shuttle, serving his community with some really "cool" people. Richard 
                 Graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. He is 
                 currently pursuing an associate of engineering at Wake Tech to reach his
-                goal of a bachelor of computer science at NC State.  */}
+                goal of a bachelor of computer science at NC State. 
                 </div>
                 
-                <Button />
+                {/* <Button />
                 
-                <Footer />  
+                <Footer />   */}
                 {/* </div>          */}
             </div>
-
+            </div>
     )
 }
 

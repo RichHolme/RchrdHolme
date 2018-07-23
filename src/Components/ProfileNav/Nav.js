@@ -35,7 +35,7 @@ const styles = {
     },
     nav: {
         padding: "1%",
-        marginBottom: "4%",
+        // marginBottom: "4%",
         // backgroundColor:"#141454", 
         // objectFit: "cover"
     },
@@ -85,7 +85,7 @@ class myNav extends Component {
                 <Navbar.Header>
                     <Navbar.Brand>
                     <Link to="/Profile">
-                        <a style={styles.name}>Richard Holme</a>
+                        <a style={styles.name}>Portfolio</a>
                         {/* <img id="navProfile" style={styles.img} src={require('../../Images/profile.jpg')}></img> */}
                     </Link>
                     </Navbar.Brand>

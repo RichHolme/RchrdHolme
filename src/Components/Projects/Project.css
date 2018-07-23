@@ -70,3 +70,7 @@ p{
 	transform: rotateY(180deg);
 	/* box-shadow: 1px 1px 10px 2px #696767; */
 }
+
+.title{
+	font-size: 4.5vh;
+}
