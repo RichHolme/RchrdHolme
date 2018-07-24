@@ -31,7 +31,7 @@ const styles = {
         fontSize: "6vh",
         // textShadow: "1px 1px 1px white"
         // marginLeft: "0px"
-        fontFamily: "Minion"
+        fontFamily: "Minion",
     },
     nav: {
         padding: "1%",
@@ -85,7 +85,7 @@ class myNav extends Component {
                 <Navbar.Header>
                     <Navbar.Brand>
                     <Link to="/">
-                        <a style={styles.name}>Portfolio</a>
+                        <a id="name" style={styles.name}>Portfolio</a>
                         {/* <img id="navProfile" style={styles.img} src={require('../../Images/profile.jpg')}></img> */}
                     </Link>
                     </Navbar.Brand>

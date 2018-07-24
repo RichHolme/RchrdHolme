@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Footer from "../Footer";
+import Footer from "../BioFooter";
 import Button from "../Button";
 import ProfileNav from "../ProfileNav";
 
@@ -17,7 +17,7 @@ const styles = {
     div: {
         textAlign: "center",
         padding: "3%",
-
+        marginTop: "4%"
     },
     div2: {
         // float: "right",
@@ -58,6 +58,7 @@ const Profile = props => {
                 <Footer />   */}
                 {/* </div>          */}
             </div>
+            <Footer /> 
             </div>
     )
 }

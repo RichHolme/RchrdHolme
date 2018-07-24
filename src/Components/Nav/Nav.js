@@ -85,7 +85,7 @@ class myNav extends Component {
                 <Navbar.Header>
                     <Navbar.Brand>
                     <Link to="/Profile">
-                        <a style={styles.name}>Richard Holme</a>
+                        <a id="name" style={styles.name}>Richard Holme</a>
                         {/* <img id="navProfile" style={styles.img} src={require('../../Images/profile.jpg')}></img> */}
                     </Link>
                     </Navbar.Brand>

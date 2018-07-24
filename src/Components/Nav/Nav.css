@@ -25,3 +25,7 @@
 Navbar{
     background-color: blue !important;
 } */
+
+#name:hover{
+    text-decoration: none;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Css from "./Footer.css";
+import Css from "./BioFooter.css";
 // import { OverlayTrigger, Popover , Modal} from "react-bootstrap";
 
 const styles = {
@@ -15,7 +15,7 @@ class Footer extends Component {
     render() {
 
         return (
-            <footer id="footer" style={styles.footer}>
+            <footer id="biofooter" style={styles.footer}>
               
                <span>&#169; Richard Holme</span>
 

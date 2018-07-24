@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { Carousel } from "react-bootstrap";
-import Footer from "../Footer";
+import FooterProjects from "../Footer";
 import Nav from "../Nav";
 import Css from "./Project.css"
 import { Link } from "react-router-dom";
@@ -269,10 +269,10 @@ class Projects extends Component {
                     </div>
                 </div>
 
-                {/* <Footer /> */}
+                
 
             </div>
-            
+            <FooterProjects />
         </div>
       );
     }
