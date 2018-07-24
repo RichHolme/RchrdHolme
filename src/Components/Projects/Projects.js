@@ -40,7 +40,7 @@ const styles = {
     text: {
         position: "absolute",
         color: "white",
-        top: "40%",
+        top: "45%",
         marginLeft: "auto",
         marginRight: "auto",
         left: "0",
@@ -87,7 +87,7 @@ class Projects extends Component {
                                 <div class="front">
                                     <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
                                         <div className="project" style={styles.div}>
-                                            <img style={styles.img} alt="900x500" src="http://blog.hdwallsource.com/wp-content/uploads/2016/03/library-wallpaper-50371-52062-hd-wallpapers.jpg" />
+                                            <img style={styles.img} alt="900x500" src="http://bookhaven.stanford.edu/wp-content/uploads/2012/04/library3.jpg" />
                                             <div style={styles.text}>
                                                 <h2 className="title">To Read or Not to Read?</h2>
                                                 {/* <p>Should I read the book or watch the movie?</p> */}
