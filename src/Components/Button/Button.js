@@ -15,18 +15,18 @@ const styles = {
         paddingRight: "2%",
         paddingLeft: "2%",
         fontSize: "180%",
-        color: "black",
+        color: "white",
         boxShadow: "1px 1px 8px 1px #888888",
         // backgroundImage: {require('../../Images/gray.jpg')}
     },
-    img: {
-        height: "9vh",
-        width: "15%",
-        boxShadow: "1px 1px 8px 1px #888888",
-        borderRadius: "5px",
-        marginTop: "8%",
-        marginBottom: "4%",
-    }
+    // img: {
+    //     height: "9vh",
+    //     width: "15%",
+    //     boxShadow: "1px 1px 8px 1px #888888",
+    //     borderRadius: "5px",
+    //     marginTop: "8%",
+    //     marginBottom: "4%",
+    // }
 }
 
 const Button = props => {
@@ -34,7 +34,7 @@ const Button = props => {
         <div style={styles.div}>
 
             <Link to="/">
-                <button style={styles.button} className="btn btn-gray">Portfolio</button>
+                <button id="button" style={styles.button} className="btn btn-xs">Portfolio</button>
                 {/* <img style={styles.img} src={require('../../Images/portfolio.jpg')}></img> */}
             </Link>
 

@@ -7,6 +7,7 @@ const styles = {
        color: "white",
     //    fontSize: "2vh",
     //    backgroundColor: "black"
+        fontFamily: "Minion"
    }
 }
 

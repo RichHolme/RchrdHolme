@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../BioFooter";
 import Button from "../Button";
-import ProfileNav from "../ProfileNav";
+import Nav from "../ProfileNav";
 
 const styles = {
     img: {
@@ -22,7 +22,7 @@ const styles = {
     div2: {
         // float: "right",
         textAlign: "left",
-        marginTop: "4%",
+        marginTop: "1%",
         fontSize: "2.5vh",
         paddingLeft: "3%",
     },
@@ -31,7 +31,7 @@ const styles = {
 const Profile = props => {
         return (
             <div>
-            <ProfileNav></ProfileNav>
+            <Nav></Nav>
             <div className="container" style={styles.div}>
                 {/* <div style={styles.inner}> */}
                 <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
@@ -45,17 +45,20 @@ const Profile = props => {
                 Prior to my for five years ive been involved with
                 and employed by the Inter-Faith Food Shuttle.  */}
 
-                Richard Holme is a web developer living in Raleigh Nc. Prior to his 
-                techiness Richard was employed by the Inter-Faith 
-                Food Shuttle, serving his community with some really "cool" people. Richard 
-                Graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. He is 
-                currently pursuing an associate of engineering at Wake Tech to reach his
-                goal of a bachelor of computer science at NC State. 
+                I'm a resident of Raleigh NC looking to kick start my career in web development.
+                You may be thinking, "kick start? great, this guy is green." But wait! Don't write 
+                me off just yet. There are a lot of inspiring words I could use to describe myself, 
+                but the reality is I enjoy a challenge and seek perfection in what I do.   
+                Prior to my "techiness", I was employed by the Inter-Faith 
+                Food Shuttle and served my community with some really "cool" people. I
+                graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. I am 
+                currently pursuing an Associate of Engineering at Wake Tech. My
+                goal is to earn a Bachelor of Computer Science at NC State. 
                 </div>
                 
-                {/* <Button />
+                <Button />
                 
-                <Footer />   */}
+                {/* <Footer />    */}
                 {/* </div>          */}
             </div>
             <Footer /> 

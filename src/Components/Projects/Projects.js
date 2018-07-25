@@ -87,7 +87,7 @@ class Projects extends Component {
                                 <div class="front">
                                     <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
                                         <div className="project" style={styles.div}>
-                                            <img style={styles.img} alt="900x500" src="http://bookhaven.stanford.edu/wp-content/uploads/2012/04/library3.jpg" />
+                                            <img style={styles.img} alt="900x500" src="http://simpsonswiki.com/w/images/0/01/Springfield_Library.png" />
                                             <div style={styles.text}>
                                                 <h2 className="title">To Read or Not to Read?</h2>
                                                 {/* <p>Should I read the book or watch the movie?</p> */}
