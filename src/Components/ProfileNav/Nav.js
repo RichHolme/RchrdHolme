@@ -84,10 +84,10 @@ class myNav extends Component {
             <Navbar id="navStyle" style={styles.nav} inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                    {/* <Link to="/"> */}
+                    <Link to="/">
                         <a id="name" style={styles.name}>Richard Holme</a>
                         {/* <img id="navProfile" style={styles.img} src={require('../../Images/profile.jpg')}></img> */}
-                    {/* </Link> */}
+                    </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>

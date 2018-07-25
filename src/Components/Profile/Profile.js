@@ -56,7 +56,7 @@ const Profile = props => {
                 goal is to earn a Bachelor of Computer Science at NC State. 
                 </div>
                 
-                <Button />
+                {/* <Button /> */}
                 
                 {/* <Footer />    */}
                 {/* </div>          */}
