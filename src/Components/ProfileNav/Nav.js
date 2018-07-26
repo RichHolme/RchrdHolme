@@ -65,6 +65,12 @@ const resume = (
     </Popover>
 );
 
+const portfolio = (
+    <Popover id="popover-trigger-hover-focus">
+      Portfolio
+    </Popover>
+);
+
 class myNav extends Component {
 
     render(){
@@ -93,7 +99,23 @@ class myNav extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                    <NavItem style={styles.links} eventKey={1} href="mailto:rchrdholme@gmail.com">
+                    
+                    <NavItem style={styles.links} eventKey={1} >
+                    <Link to="/">
+                        <a>
+                            <OverlayTrigger
+                                trigger={['hover', 'focus', 'click']}
+                                rootClose
+                                placement="bottom"
+                                overlay={portfolio}
+                                >
+                                <span style={styles.links} className="fa fa-briefcase"></span>
+                            </OverlayTrigger>
+                        </a>
+                    </Link>
+                    </NavItem>
+                    
+                    <NavItem style={styles.links} eventKey={2} href="mailto:rchrdholme@gmail.com">
                         <a>
                             <OverlayTrigger
                                 trigger={['hover', 'focus', 'click']}
@@ -101,11 +123,11 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={mail}
                                 >
-                                <span style={styles.links} className="fa fa-envelope-o email"></span>
+                                <span style={styles.links} className="fa fa-envelope email"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>
-                    <NavItem style={styles.links} eventKey={2} target="_blank" href="https://github.com/RichHolme">
+                    <NavItem style={styles.links} eventKey={3} target="_blank" href="https://github.com/RichHolme">
                         <a>
                             <OverlayTrigger
                                 trigger={['hover', 'focus']}
@@ -113,11 +135,11 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={code}
                                 >
-                                <span style={styles.links} className="fa fa-code code"></span>
+                                <span style={styles.links} className="fa fa-github code"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>
-                    <NavItem style={styles.links} eventKey={3} href={require('../../pdf/RichardHolmeResume.pdf')} download>
+                    <NavItem style={styles.links} eventKey={4} href={require('../../pdf/RichardHolmeResume.pdf')} download>
                         <a>
                             <OverlayTrigger
                                 trigger={['hover', 'focus']}
@@ -125,7 +147,7 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={resume}
                                 >
-                                <span style={styles.links} className="resume fa fa-file-o resume"></span>
+                                <span style={styles.links} className="resume fa fa-file resume"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>

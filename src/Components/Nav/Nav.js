@@ -101,7 +101,7 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={mail}
                                 >
-                                <span style={styles.links} className="fa fa-envelope-o email"></span>
+                                <span style={styles.links} className="fa fa-envelope email"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>
@@ -113,7 +113,7 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={code}
                                 >
-                                <span style={styles.links} className="fa fa-code code"></span>
+                                <span style={styles.links} className="fa fa-github code"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>
@@ -125,7 +125,7 @@ class myNav extends Component {
                                 placement="bottom"
                                 overlay={resume}
                                 >
-                                <span style={styles.links} className="resume fa fa-file-o resume"></span>
+                                <span style={styles.links} className="resume fa fa-file resume"></span>
                             </OverlayTrigger>
                         </a>
                     </NavItem>
