@@ -45,7 +45,7 @@ const Profile = props => {
                 Prior to my for five years ive been involved with
                 and employed by the Inter-Faith Food Shuttle.  */}
 
-                I'm a resident of Raleigh NC looking to kick start my career in web development.
+                I'm a resident of Raleigh NC looking to kick start my career in technology.
                 You may be thinking, "kick start? great, this guy is green." But wait! Don't write 
                 me off just yet. There are a lot of inspiring words I could use to describe myself, 
                 but the reality is I enjoy a challenge and seek perfection in what I do.   
