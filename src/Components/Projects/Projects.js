@@ -267,9 +267,41 @@ class Projects extends Component {
                     
 
                     </div>
-                </div>
 
-                
+                    <div className="col-md-6">
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                                <div class="flipper">
+                                    <div class="front">
+                                        <a target="_blank" href="https://richholme.github.io/RPS-Game/">
+                                            <div className="project" style={styles.div}>
+                                                <img style={styles.img} alt="900x500" src="https://futurism.com/wp-content/uploads/2014/05/rock-paper-scissors.jpg" />
+                                                <div style={styles.text}>
+                                                    <h2 className="title">Rock Paper Sissors</h2>
+                                                    {/* <p>Think you have a good memory? Lets test it.</p> */}
+                                                    {/* <p>React.js React Router React-Bootstrap MongoDB Mongoose</p> */}
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="back">
+                                        <a target="_blank" href="https://richholme.github.io/RPS-Game/">
+                                            <div className="project" style={styles.divback}>
+                                                <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
+                                                <div style={styles.textBack}>
+                                                    <h4 className='h4'>Go ahead hurl some pre-teen insults, this
+                                                    bad boy has chat features. (Be sure to open in two tabs to play your opponent)</h4>
+                                                    <h2>I was built with...</h2>
+                                                    <h4>Html Bootstrap Javascript Firebase</h4>
+                                                        
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
             <FooterProjects />
