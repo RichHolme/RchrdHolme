@@ -16,6 +16,10 @@
     /* padding-left: 0px; */
     /* color: black; */
     /* padding-right: 5% !important; */
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    /* margin-bottom: 6% !important; */
 }
 
 /* .navstyle {

@@ -35,7 +35,7 @@ const styles = {
     },
     nav: {
         padding: "1%",
-        marginBottom: "4%",
+        marginBottom: "6%",
         // backgroundColor:"#141454", 
         // objectFit: "cover"
     },

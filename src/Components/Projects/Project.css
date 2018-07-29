@@ -1,6 +1,15 @@
 .project:hover{
     box-shadow: 1px 1px 10px 2px #696767 !important;
-    cursor: pointer;
+	cursor: pointer;
+	
+}
+
+.project {
+	/* height: 76vh !important; */
+	height: 70vh;
+	/* margin-bottom: 2vh; */
+	width: 100%;
+	/* z-index: 2; */
 }
 
 h1,
@@ -36,9 +45,8 @@ p{
 	}
 
 .flip-container, .front, .back {
-    width: 100%;
-	height: 49vh;
-    /* margin: 1%; */
+	width: 100%;
+	height: 75vh;
 }
 
 /* flip speed goes here */
@@ -56,6 +64,12 @@ p{
 	position: absolute;
 	top: 0;
 	left: 0;
+	/* height: 100%; */
+	/* height: 30vh !important; */
+}
+
+#front, #back {
+	height: 30vh !important;
 }
 
 /* front pane, placed above back */
@@ -73,4 +87,99 @@ p{
 
 .title{
 	font-size: 4.5vh;
+}
+
+#aboutMe{
+	text-align: center;
+	text-shadow: none;
+	font-family: "Minion";
+	/* color: "white" !important; */
+	margin-bottom: 4vh !important;
+	margin-top: 23vh;
+}
+
+#myWork{
+	text-align: center;
+	text-shadow: none;
+	font-family: "Minion";
+	/* color: "white" !important; */
+	margin-bottom: 8vh !important;
+	/* margin-top: 10vh; */
+	/* margin-bottom: 4vh; */
+}
+
+.skills{
+	text-align: center;
+	text-shadow: none;
+	font-family: "Minion";
+	/* color: "white" !important; */
+	margin-bottom: 1vh;
+	margin-top: 4vh;
+	/* margin-bottom: 4vh; */
+}
+
+#profile{
+	height: 100vh;
+	/* background-color: blue; */
+	/* border-bottom: 1px solid black; */
+}
+
+#projects{
+	height: 100vh;
+	/* background-color: blue; */
+	/* border-bottom: 1px solid black; */
+	/* margin-bottom: 8vh; */
+}
+
+.title{
+	text-align: center;
+	text-shadow: none;
+	font-family: "Minion";
+	/* color: "white" !important; */
+	margin-bottom: 3vh !important;
+	/* margin-top: 23vh; */
+}
+
+.description{
+	font-family: "Minion";
+	padding-left: 3%;
+}
+.descriptionright{
+	font-family: "Minion";
+	padding-right: 3%;
+}
+
+#rightImg{
+	/* margin-top: -30%; */
+}
+
+#projectRight{
+	height: 70vh;
+	/* margin-bottom: 2vh; */
+	width: 46vw !important;
+	/* margin-right: -50px !important; */
+}
+
+@media only screen and (max-width: 769px){
+	#aboutMe{
+		margin-top: 4vh;
+	}
+
+	.description{
+		display: inline-block;
+	}
+
+	#profileImg{
+		margin-top: 16vh !important;
+	}
+}
+
+@media only screen and (max-width: 415px){	
+}
+
+@media only screen and (max-width: 376px){
+}
+
+@media only screen and (max-width: 320px){
+
 }
