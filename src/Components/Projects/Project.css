@@ -111,7 +111,7 @@ p{
 .skills{
 	text-align: center;
 	text-shadow: none;
-	font-family: "Minion";
+	/* font-family: "Minion"; */
 	/* color: "white" !important; */
 	margin-bottom: 1vh;
 	margin-top: 4vh;
@@ -121,7 +121,7 @@ p{
 #profile{
 	height: 100vh;
 	/* background-color: blue; */
-	/* border-bottom: 1px solid black; */
+	border-bottom: 1px solid black;
 }
 
 #projects{
@@ -158,6 +158,14 @@ p{
 	/* margin-bottom: 2vh; */
 	width: 46vw !important;
 	/* margin-right: -50px !important; */
+}
+
+.firstProject{
+	margin-top: 6vh;
+}
+
+.center{
+	text-align: center;
 }
 
 @media only screen and (max-width: 769px){

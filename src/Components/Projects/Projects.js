@@ -122,7 +122,14 @@ class Projects extends Component {
 
                     <div className="col-md-6 col-sm-12">
                         <img id="profileImg" style={styles.imgprofile} src={require('../../Images/profile.jpg')}></img>
-                        
+                        <div>
+                            <h1 className="skills">Got Skills?</h1>
+                            <div style={styles.skills}>
+                                Node.js, Express, JavaScript, .NET, jQuery, React, GIT, GitHub, MongoDB, MySQL, 
+                                Sequelize, Firebase, HTML, CSS, Bootstrap, Materialize, Chai, Mocha, REST, APIs, JSON, AJAX, 
+                                CLI, OOP 
+                            </div>
+                        </div>
                     </div>
 
                     <div className="col-md-6 col-sm-12">
@@ -140,7 +147,7 @@ class Projects extends Component {
                                 graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. I am 
                                 currently pursuing an Associate of Engineering at Wake Tech. My
                                 goal is to earn a Bachelor of Computer Science at NC State. My studies are part time
-                                so employment in the industry while in school is the path I'm taking. I'm always seeking
+                                so employment in the industry, while in school, is the path I'm taking. I'm always seeking
                                 an opportunity to gain experience and learn something new. 
                             </div>
                         </div>
@@ -148,7 +155,7 @@ class Projects extends Component {
                     </div>
                 </div>
 
-                <div id="projects" className="row">
+                <div id="projects" className="row firstProject">
                         
                     {/* <div className="row"><h1 id="myWork">What's He Done?</h1></div> */}
                     
@@ -180,9 +187,9 @@ class Projects extends Component {
                         {/* </div> */}
 
                         <h1 className="title">I Was Built With...</h1>
-                        {/* <div className="col-sm-12"> */}
+                        <div className="center">
                             Html Css Javascript Jquery Ajax
-                        {/* </div> */}
+                        </div>
 
                     </div>
 
@@ -198,9 +205,9 @@ class Projects extends Component {
                         there, and meet up with fellow dog owners! (Your dog's tail just started wagging.)
                        
                         <h1 className="title">I Was Built With...</h1>
-                       
-                            Express.js Node.js MySQL Sequelize Materialize
-                      
+                            <div className="center">
+                                Express.js Node.js MySQL Sequelize Materialize
+                            </div>
                     </div>
 
                     <div id="rightImg" className="col-md-7 col-sm-12">
@@ -248,10 +255,10 @@ class Projects extends Component {
                           
     
                             <h1 className="title">I Was Built With...</h1>
-                            
-                                React.js
+                                <div className="center">
+                                    React.js
                            
-    
+                                </div>
                         </div>
     
                         {/* <div className="col-md-6">
@@ -325,14 +332,15 @@ class Projects extends Component {
                             </div> */}
                         <div className="col-md-5 col-sm-12 descriptionright" style={styles.div2profile}>
                             <h1 className="title">Mongo Scraper</h1>
-                                Useing Cheerio to scrape articles off the web, your able to keep up with 
+                                Using Cheerio to scrape articles off the web, you can keep up with 
                                 the latest stories, save your favorites and add notes for later.  
                            
                             <h1 className="title">I Was Built With...</h1>
-                           
-                            Express.js Node.js Cheerio MongoDB Mongoose
+                            
+                            <div className="center">
+                                Express.js Node.js Cheerio MongoDB Mongoose
                           
-        
+                            </div>
                         </div>
     
                         <div id="rightImg" className="col-md-7 col-sm-12">
@@ -375,14 +383,14 @@ class Projects extends Component {
                     <div className="col-md-5 col-sm-12 description" style={styles.div2profile}>
                         <h1 className="title">Friend Finder</h1>
                         {/* <div className="col-sm-12"> */}
-                            Popeye needs some friends! Fill out the survey to find out who your 
-                            most compatable with.
+                            Popeye needs some friends! Fill out the survey to find out who you're 
+                            most compatible with.
                         {/* </div> */}
 
                         <h1 className="title">I Was Built With...</h1>
-                        {/* <div className="col-sm-12"> */}
+                        <div className="center">
                             Express.js Node.js Javascript
-                        {/* </div> */}
+                        </div>
 
                     </div>
 
@@ -459,12 +467,12 @@ class Projects extends Component {
                         <h1 className="title">Rock Paper Sissors</h1>
                         
                         Go ahead and hurl some pre-teen insults, this
-                        bad boy has chat features. (Be sure to open in two tabs to play your opponent)
+                        bad boy has chat features. Be sure to open in two tabs to play your opponent.
                     
                         <h1 className="title">I Was Built With...</h1>
-                    
-                        Html Bootstrap Javascript Firebase
-                    
+                        <div className="center">
+                            Html Bootstrap Javascript Firebase
+                        </div>
 
                     </div>
 
@@ -485,18 +493,6 @@ class Projects extends Component {
                     </div>
 
                 </div>
-            
-
-                {/* <div className="row" id="skills">
-                    <div>
-                        <h1 className="skills">Got Skills?</h1>
-                        <div style={styles.skills}>
-                            Node.js, Express, JavaScript, .NET, jQuery, React, GIT, GitHub, MongoDB, MySQL, 
-                            Sequelize, Firebase, HTML, CSS, Bootstrap, Materialize, Chai, Mocha, REST, APIs, JSON, AJAX, 
-                            CLI, OOP 
-                        </div>
-                    </div>
-                </div> */}
 
             </div>
 
@@ -524,11 +520,20 @@ class Projects extends Component {
                                 graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. I am 
                                 currently pursuing an Associate of Engineering at Wake Tech. My
                                 goal is to earn a Bachelor of Computer Science at NC State. My studies are part time
-                                so employment in the industry while in school is the path I'm taking. I'm always seeking
+                                so employment in the industry, while in school, is the path I'm taking. I'm always seeking
                                 an opportunity to gain experience and learn something new. 
                             </div>
                         </div>
 
+                    </div>
+                </div>
+
+                <div className="row">
+                    <h1 className="skills">Got Skills?</h1>
+                    <div style={styles.skills}>
+                        Node.js, Express, JavaScript, .NET, jQuery, React, GIT, GitHub, MongoDB, MySQL, 
+                        Sequelize, Firebase, HTML, CSS, Bootstrap, Materialize, Chai, Mocha, REST, APIs, JSON, AJAX, 
+                        CLI, OOP 
                     </div>
                 </div>
 
