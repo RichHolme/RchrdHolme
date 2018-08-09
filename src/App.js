@@ -37,8 +37,8 @@ class App extends Component {
       <Router>
         <div>
           {/* <Header user={this.state.user} /> */}
+          <Route exact path="/" component={Projects} />
           <Route exact path="/Profile" component={Projects} />
-          {/* <Route exact path="/Profile" component={Profile} /> */}
         </div>
       </Router>
     );
