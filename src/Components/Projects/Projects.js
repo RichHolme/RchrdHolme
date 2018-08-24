@@ -146,8 +146,7 @@ class Projects extends Component {
                                 Food Shuttle and served my community with some really "cool" people. I
                                 graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. I am 
                                 currently pursuing an Associate of Engineering at Wake Tech. My
-                                goal is to earn a Bachelor of Computer Science at NC State. My studies are part time
-                                so employment in the industry, while in school, is the path I'm taking. I'm always seeking
+                                goal is to earn a Bachelor of Computer Science at NC State. I'm always seeking
                                 an opportunity to gain experience and learn something new. 
                             </div>
                         </div>
@@ -519,8 +518,7 @@ class Projects extends Component {
                                 Food Shuttle and served my community with some really "cool" people. I
                                 graduated from the Code Bootcamp at UNC Chapel Hill in July 2018. I am 
                                 currently pursuing an Associate of Engineering at Wake Tech. My
-                                goal is to earn a Bachelor of Computer Science at NC State. My studies are part time
-                                so employment in the industry, while in school, is the path I'm taking. I'm always seeking
+                                goal is to earn a Bachelor of Computer Science at NC State. I'm always seeking
                                 an opportunity to gain experience and learn something new. 
                             </div>
                         </div>
