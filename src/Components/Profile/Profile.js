@@ -36,15 +36,7 @@ const Profile = props => {
                 {/* <div style={styles.inner}> */}
                 <img style={styles.img} src={require('../../Images/profile.jpg')}></img>
                 <div className="" style={styles.div2}>
-                {/* For the past five years I’ve been immersed in the nonprofit world. While at 
-                Inter-Faith, I began my studies in technology with a focus in web 
-                development. The Code Bootcamp at UNC Chapel Hill has connected the dots 
-                of development that the slow pace of night classes lacked. I am currently 
-                looking to transition into the web development field full time. */}
-                {/* My name is Richard Holme, I'm a web developer living in Raleigh, Nc. 
-                Prior to my for five years ive been involved with
-                and employed by the Inter-Faith Food Shuttle.  */}
-
+                
                 I'm a resident of Raleigh NC looking to kick start my career in technology.
                 You may be thinking, "kick start? great, this guy is green." But wait! Don't write 
                 me off just yet. There are a lot of inspiring words I could use to describe myself, 
