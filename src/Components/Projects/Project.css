@@ -12,6 +12,10 @@
 	/* z-index: 2; */
 }
 
+.mobileProject{
+	height: 50vh;
+}
+
 h1,
 h2,
 h4,
@@ -68,21 +72,23 @@ p{
 	/* height: 30vh !important; */
 }
 
-#front, #back {
+/* #front, #back {
 	height: 30vh !important;
-}
+} */
 
 /* front pane, placed above back */
 .front {
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
+	/* height: 50vh; */
 }
 
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
 	/* box-shadow: 1px 1px 10px 2px #696767; */
+	/* height: 50vh; */
 }
 
 .title{
@@ -180,6 +186,8 @@ p{
 	#profileImg{
 		margin-top: 16vh !important;
 	}
+	
+
 }
 
 @media only screen and (max-width: 415px){	

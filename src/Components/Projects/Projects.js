@@ -20,7 +20,8 @@ const styles = {
         position: "relative",
         overflow: "hidden",
         clear: "both",
-        backgroundColor:"white"
+        backgroundColor:"white",
+        // height: "50vh"
     },
     divback : {
         padding: "3%",
@@ -28,7 +29,8 @@ const styles = {
         position: "relative",
         overflow: "hidden",
         clear: "both",
-        backgroundColor:"white"
+        backgroundColor:"white",
+        // height: "50vh"
     },
     // background1: {
     //     backgroundImage: "url('https://images.complex.com/complex/image/upload/t_article_image/ojyz9t7vrxxzcmqkycyd.jpg')"
@@ -547,7 +549,7 @@ class Projects extends Component {
                             <div class="flipper">
                                 <div class="front">
                                     <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project mobileProject" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src="http://simpsonswiki.com/w/images/0/01/Springfield_Library.png" />
                                             <div style={styles.text}>
                                                 <h2 className="title">To Read or Not to Read?</h2>
