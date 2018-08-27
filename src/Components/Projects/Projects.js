@@ -561,7 +561,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://richholme.github.io/Movie-Book-Search/">
-                                            <div className="project" style={styles.divback}>
+                                            <div className="project mobileProject" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Should I read the book or watch the movie?</h4>
@@ -585,7 +585,7 @@ class Projects extends Component {
                             <div class="flipper">
                                 <div class="front">
                                     <a target="_blank" href="https://face-bark.herokuapp.com/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project mobileProject" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src="https://media.giphy.com/media/NmGbJwLl7Y4lG/giphy.gif" />
                                             <div style={styles.text}>
                                                 <h2 className="title">Facebark</h2>
@@ -597,7 +597,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://face-bark.herokuapp.com/">
-                                            <div className="project" style={styles.divback}>
+                                            <div className="project mobileProject" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Walk your dog. Be social. Life is good.</h4>
@@ -625,7 +625,7 @@ class Projects extends Component {
                             <div class="flipper">
                                 <div class="front">
                                      <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project mobileProject" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/news.jpg')} />
                                             <div className="news" style={styles.text}>
                                                 <h2 className="title">Mongo Scraper</h2>
@@ -637,7 +637,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://mongo-scrapr.herokuapp.com/index.html">
-                                            <div className="project" style={styles.divback}>
+                                            <div className="project mobileProject" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Scrape some articles. Keep track of your notes. Everyone loves the news.</h4>
@@ -661,7 +661,7 @@ class Projects extends Component {
                             <div class="flipper">
                                 <div class="front">
                                      <a target="_blank" href="https://richholme.github.io/MemoryGame/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project mobileProject" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/dirty.jpg')} />
                                             <div style={styles.text}>
                                                 <h2 className="title">The Dirty Dozen Puzzle</h2>
@@ -673,7 +673,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://richholme.github.io/MemoryGame/">
-                                        <div className="project" style={styles.divback}>
+                                        <div className="project mobileProject" style={styles.divback}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
                                                 <h4 className='h4'>Think you have a good memory? Lets test it.</h4>
@@ -702,7 +702,7 @@ class Projects extends Component {
                             <div class="flipper">
                                 <div class="front">
                                     <a target="_blank" href="https://vast-plateau-18950.herokuapp.com/">
-                                        <div className="project" style={styles.div}>
+                                        <div className="project mobileProject" style={styles.div}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/popeye.jpg')} />
                                             <div style={styles.text}>
                                                 <h2 className="title">Friend Finder</h2>
@@ -714,7 +714,7 @@ class Projects extends Component {
                                 </div>
                                 <div class="back">
                                     <a target="_blank" href="https://vast-plateau-18950.herokuapp.com/">
-                                        <div className="project" style={styles.divback}>
+                                        <div className="project mobileProject" style={styles.divback}>
                                             <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                             <div style={styles.textBack}>
                                                 <h4 className='h4'>Popeye needs some friends!</h4>
@@ -736,7 +736,7 @@ class Projects extends Component {
                                 <div class="flipper">
                                     <div class="front">
                                         <a target="_blank" href="https://richholme.github.io/RPS-Game/">
-                                            <div className="project" style={styles.div}>
+                                            <div className="project mobileProject" style={styles.div}>
                                                 <img style={styles.img} alt="900x500" src="https://futurism.com/wp-content/uploads/2014/05/rock-paper-scissors.jpg" />
                                                 <div style={styles.text}>
                                                     <h2 className="title">Rock Paper Sissors</h2>
@@ -748,7 +748,7 @@ class Projects extends Component {
                                     </div>
                                     <div class="back">
                                         <a target="_blank" href="https://richholme.github.io/RPS-Game/">
-                                            <div className="project" style={styles.divback}>
+                                            <div className="project mobileProject" style={styles.divback}>
                                                 <img style={styles.img} alt="900x500" src={require('../../Images/gray.jpg')} />
                                                 <div style={styles.textBack}>
                                                     <h4 className='h4'>Go ahead hurl some pre-teen insults, this
