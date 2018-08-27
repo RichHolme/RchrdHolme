@@ -112,7 +112,6 @@ const styles = {
 class Projects extends Component {
   
     render() {
-    //   const { index, direction } = this.state;
   
       return (
         <div style={styles.container} className="">
@@ -776,6 +775,5 @@ class Projects extends Component {
     }
 }
   
-//   render(<ControlledCarousel />);
 
 export default Projects;
