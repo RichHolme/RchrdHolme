@@ -38,51 +38,51 @@ const styles = {
 }
 const Education = props => {
     return (
-        // <div style={styles.container} className="container">
+        <div style={styles.container} className="container">
 
-        //     <div>
-        //         <img style={styles.img} src="https://cdn.wallpapersafari.com/64/51/GdVWAs.png"></img>
-        //         <div className="" style={styles.div2}>
-        //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        //             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        //             Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        //             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        //             dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-        //             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-        //             proident, sunt in culpa qui officia deserunt mollit anim id est
-        //             laborum.
-        //         </div>
-        //     </div>
+            {/* <div>
+                <img style={styles.img} src="https://cdn.wallpapersafari.com/64/51/GdVWAs.png"></img>
+                <div className="" style={styles.div2}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                </div>
+            </div>
 
-        //     <div>
-        //         <img style={styles.img} src="https://www.scoutforceathlete.com/media/college/wake-technical-community-college55d851526669c.jpg"></img>
-        //         <div className="" style={styles.div2}>
-        //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        //             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        //             Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        //             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        //             dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-        //             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-        //             proident, sunt in culpa qui officia deserunt mollit anim id est
-        //             laborum.
-        //         </div>
-        //     </div>
+            <div>
+                <img style={styles.img} src="https://www.scoutforceathlete.com/media/college/wake-technical-community-college55d851526669c.jpg"></img>
+                <div className="" style={styles.div2}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                </div>
+            </div>
 
-        //     <div>
-        //         <img style={styles.img} src="http://images1.fanpop.com/images/image_uploads/Wolfpack-north-carolina-state-university-868735_1350_1650.gif"></img>
-        //         <div className="" style={styles.div2}>
-        //             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        //             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        //             Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-        //             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        //             dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-        //             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-        //             proident, sunt in culpa qui officia deserunt mollit anim id est
-        //             laborum.
-        //         </div>
-        //     </div>
+            <div>
+                <img style={styles.img} src="http://images1.fanpop.com/images/image_uploads/Wolfpack-north-carolina-state-university-868735_1350_1650.gif"></img>
+                <div className="" style={styles.div2}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum.
+                </div>
+            </div> */}
 
-        // </div>
+        </div>
 
     )
 }
