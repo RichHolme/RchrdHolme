@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 // import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Profile from "./Components/Profile";
-import Education from "./Components/Education";
+// import Profile from "./Components/Profile";
+// import Education from "./Components/Education";
 import Footer from "./Components/Footer";
 import Projects from "./Components/Projects";
 
