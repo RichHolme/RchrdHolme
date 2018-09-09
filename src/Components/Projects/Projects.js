@@ -122,7 +122,7 @@ class Projects extends Component {
                 <div id="profile" className="row">
 
                     <div className="col-md-6 col-sm-12">
-                        <img id="profileImg" style={styles.imgprofile} src={require('../../Images/Profile.jpg')}></img>
+                        <img id="profileImg" style={styles.imgprofile} src={require('../../Images/profile1.jpg')}></img>
                         <div>
                             <h1 className="skills">Got Skills?</h1>
                             <div style={styles.skills}>
@@ -501,7 +501,7 @@ class Projects extends Component {
                 <div className="row">
 
                     <div className="col-md-6 col-sm-12">
-                        <img id="profileImg" style={styles.imgprofile} src={require('../../Images/Profile.jpg')}></img>
+                        <img id="profileImg" style={styles.imgprofile} src={require('../../Images/profile1.jpg')}></img>
                         
                     </div>
 
